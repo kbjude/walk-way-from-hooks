@@ -4,7 +4,7 @@ class Header extends React.Component{
     render(){
             return(
             <header>
-                <p> Welcome, {PaymentResponse.username}!</p>
+                <p> Welcome, {this.props.username}!</p>
             </header>
         )
     }
